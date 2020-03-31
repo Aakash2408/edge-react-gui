@@ -157,6 +157,7 @@ export type Action =
     }
   | { type: 'IS_CHECKING_HANDLE_AVAILABILITY', data: boolean }
   | { type: 'LOGOUT', data: { username?: string } }
+  | { type: 'SHOW_MAIN_APP' }
   | { type: 'LOGS/SEND_LOGS_REQUEST', text: string }
   | { type: 'LOGS/SEND_LOGS_SUCCESS', result: string }
   | { type: 'LOGS/SEND_LOGS_FAILURE', error: Error }
